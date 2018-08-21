@@ -1,5 +1,3 @@
-inputArray = [2, 4, 1, 0]
-
 def arrayMaximalAdjacentDifference(inputArray):
     i = inputArray
     num = 0
@@ -16,6 +14,3 @@ def arrayMaximalAdjacentDifference(inputArray):
     num = max(maxim)
 
     return num
-
-res = arrayMaximalAdjacentDifference(inputArray)
-print res
