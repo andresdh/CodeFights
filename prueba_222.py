@@ -79,18 +79,26 @@
 #          [10, 7,8]]
 #
 # print(boxBlur(image))
-n = 808
+# n = 808
+#
+#
+# def lateRide(n):
+#     horas = str(n//60)
+#     minutos = str(n%60)
+#     suma = 0
+#     for x in horas:
+#         suma += int(x)
+#     for x in minutos:
+#         suma += int(x)
+#
+#     return suma
+#
+# print(lateRide(n))
 
 
-def lateRide(n):
-    horas = str(n//60)
-    minutos = str(n%60)
-    suma = 0
-    for x in horas:
-        suma += int(x)
-    for x in minutos:
-        suma += int(x)
 
-    return suma
+def division(x,y):
+    return x/y
 
-print(lateRide(n))
+for x,y in [(-8,2),(15,-4),(5,10),(-10,-3),(17,13)]:
+    print(division(x,y))

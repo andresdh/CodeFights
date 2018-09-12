@@ -21,7 +21,6 @@
 #    Here, however, it does make a difference.
 #
 def swapAdjacentBits(n):
-
     return int("".join([bin(n)[2:].zfill(32)[x:x+2][::-1] for x in range(0,32,2)]),2)
 
 n = 1073741823
